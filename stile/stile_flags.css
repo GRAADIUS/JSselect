@@ -1,0 +1,206 @@
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space-collapse: collapse;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+table#eesti{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+#eesti tr:nth-child(1) {
+    background-color: blue;
+    border: 0px;
+}
+#eesti tr:nth-child(2) {
+    background-color: black;
+    border: 0px;
+}
+#eesti tr:nth-child(3) {
+    background-color: white;
+    border: 0px;
+}table#saksa{
+     width: 330px;
+     height: 210px;
+     border: 1pt solid grey;
+     border-spacing: 0;
+     position: absolute;
+     left: 450px;
+     top: 150px;
+ }
+#saksa tr:nth-child(1) {
+    background-color: black;
+    border: 0px;
+}
+#saksa tr:nth-child(2) {
+    background-color: red;
+    border: 0px;
+}
+#saksa tr:nth-child(3) {
+    background-color: yellow;
+    border: 0px;
+}
+
+table#france {
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 850px;
+    top: 150px;
+}
+#france tr:nth-child(1) td:nth-child(1) {
+    background-color: blue;
+    border: 0px;
+}
+#france tr:nth-child(1) td:nth-child(2) {
+    background-color: white;
+    border: 0px;
+}
+#france tr:nth-child(1) td:nth-child(3) {
+    background-color: red;
+    border: 0px;
+}
+
+table#Finland {
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 50px;
+    top: 450px;
+}
+
+#Finland tr:nth-child(1) td:nth-child(1), #Finland tr:nth-child(3) td:nth-child(1) {
+    background-color: white;
+    width: 25%;
+    border: 0px;
+}
+#Finland tr:nth-child(1) td:nth-child(2), #Finland tr:nth-child(3) td:nth-child(2) {
+    background-color: darkblue;
+    width: 15%;
+    border: 0px;
+}
+#Finland tr:nth-child(1) td:nth-child(3), #Finland tr:nth-child(3) td:nth-child(3) {
+    background-color: white;
+    border: 0px;
+}
+#Finland tr:nth-child(2) td:nth-child(1) {
+    background-color: darkblue;
+    height: 25%;
+    border: 0px;
+}
+
+
+table#Norway {
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 450px;
+    top: 450px;
+}
+#Norway tr:nth-child(1) td:nth-child(1), #Norway tr:nth-child(5) td:nth-child(1) {
+    background-color: darkred;
+    border: 0;
+    width: 20%;
+    height: 30%;
+}
+#Norway tr:nth-child(1) td:nth-child(2), #Norway tr:nth-child(1) td:nth-child(4), #Norway tr:nth-child(5) td:nth-child(2), #Norway tr:nth-child(5) td:nth-child(4) {
+    background-color: whitesmoke;
+    border: 0;
+    width: 5%;
+}
+#Norway tr:nth-child(1) td:nth-child(3), #Norway tr:nth-child(2) td:nth-child(2), #Norway tr:nth-child(4) td:nth-child(2), #Norway tr:nth-child(5) td:nth-child(3) {
+    background-color: darkblue;
+    border: 0;
+    width: 10%;
+}
+#Norway tr:nth-child(1) td:nth-child(2), #Norway tr:nth-child(1) td:nth-child(4), #Norway tr:nth-child(5) td:nth-child(2), #Norway tr:nth-child(5) td:nth-child(4) {
+    background-color: whitesmoke;
+    border: 0;
+    width: 5%;
+}
+#Norway tr:nth-child(1) td:nth-child(5), #Norway tr:nth-child(5) td:nth-child(5) {
+    background-color: darkred;
+    border: 0;
+    width: 80%;
+}
+#Norway tr:nth-child(3) td:nth-child(1) {
+    background-color: darkblue;
+    border: 0;
+    height: 15%;
+}
+
+table#TARpv22 {
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 850px;
+    top: 450px;
+}
+#TARpv22 tr:nth-child(1) td:nth-child(1), #TARpv22 tr:nth-child(2) td:nth-child(1), #TARpv22 tr:nth-child(2) td:nth-child(3), #TARpv22 tr:nth-child(3) td:nth-child(1), #TARpv22 tr:nth-child(4) td:nth-child(1), #TARpv22 tr:nth-child(5) td:nth-child(1) {
+    border: 0pt;
+    background-color: darkolivegreen;
+}
+#TARpv22 tr:nth-child(2) td:nth-child(2) {
+    background-color: mintcream;
+    width: 100px;
+    height: 50px;
+    border: 0pt;
+}
+#TARpv22 tr:nth-child(4) td:nth-child(2) {
+    background-color: teal;
+    width: 90px;
+    height: 45px;
+    border: 0pt;
+}
+#TARpv22 tr:nth-child(5) td:nth-child(2) {
+    background-color: teal;
+    width: 70px;
+    height: 45px;
+}
+#TARpv22 tr:nth-child(5) td:nth-child(3) {
+    background-color: black;
+    width: 90px;
+    height: 45px;
+    border: 0pt;
+}
+
+table#flag {
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 450px;
+    top: 750px;
+}
+#flag tr:nth-child(1) td:nth-child(1), #flag tr:nth-child(1) td:nth-child(3){
+    background-color: red;
+    height: 150px;
+}
+#flag tr:nth-child(1) td:nth-child(2), #flag tr:nth-child(2) td:nth-child(3){
+    background-color: blue;
+    width: 120px;
+}
+#flag tr:nth-child(2) td:nth-child(1), #flag tr:nth-child(2) td:nth-child(2), #flag tr:nth-child(2) td:nth-child(4), #flag tr:nth-child(2) td:nth-child(5){
+    background-color: yellow;
+    border: 1pt solid grey;
+}
