@@ -70,7 +70,7 @@ echo "</ol>";
 ?>
 
 <strong>Kontroll:</strong>
-<form action="<?clearVarsExept(basename($_SERVER['REQUEST_URI']), "veebileht")?>">
+<form action="<?clearVarsExept(basename($_SERVER['REQUEST_URI']), "veebileht")?>" method='post'>
     <input type="text" name="kontroll" class="col">
     <input type="submit" value="ok">
 </form>
